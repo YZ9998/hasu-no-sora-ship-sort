@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="src\assets\axdfz-7451c-001.ico" type="image/x-icon">
+  <link rel="icon" href="src\assets\axdfz-7451c-001.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="og:site_name" content="Hasu no Sora ship Sorting">
+  <meta name="og:description" content="A simple website for sorting Hasu ship in a formatted list.">
+  <meta name="og:image" content="https://i.imgur.com/IZzJMk6.jpg">
+  <title>Hasu no Sora ship Sorting</title>
+
+  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2024-05-12.js"></script>
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="progress">
+        <span class="progressbattle"></span>
+        <div class="progressbar">
+            <div class="progressfill"><span class="progresstext"></span></div>
+        </div>
+    </div>
+
+    <div class="sorter">
+        <img src="src\assets\20240413_202558.jpg" class="left sort image">
+
+        <div class="starting start button">Hasu no Sora ship Sorter<br><br>Click to Start!</div>
+        <div class="starting load button">Load <span></span></div>
+
+        <div class="loading button"><div></div><span>Loading...</span></div>
+
+        <div class="sorting tie button">Tie</div>
+        <div class="sorting undo button">Undo</div>
+        <div class="sorting save button">Save Progress</div>
+
+        <div class="finished save button">Generate Result URL</div>
+        <div class="finished getimg button">Generate Image</div>
+        <div class="finished list button">Generate Text List</div>
+
+        <img src="src\assets\w644.jpg" class="right sort image">
+
+        <div class="left sort text"><p></p></div>
+        <div class="right sort text"><p></p></div>
+    </div>
+
+    <div class="options"></div>
+    <div class="image selector">Display Images on Result: </div>
+    <div class="time taken"></div>
+    <div class="results"></div>
+
+    <div class="info">
+        <a href="mailto:fera@imouto.my">Contact</a> | <a href="https://github.com/execfera/charasort/">Source Code</a> |  <a class="clearsave">Clear Save Data</a>
+        
+        <br><br>
+
+        <p>Sorter for Hasu no Sora shipping. Pick your sources, and hit the Start button.</p>
+        <p><strong>Certain options have details that you can hover to read.</strong></p>
+        <p>If you can not sort the characters, click Clear Save Data and refresh your webpage. when Filters are visible you should be able to redo it.
+        <br>
+        <p>Images from the <a href="https://www.lovelive-anime.jp/hasunosora/">official website</a></p>
+
+        <br><br>
+        
+        <br><br>
+
+        <p>Inspired by <a href="https://execfera.github.io/charasort/">Touhou charater sorting</a>and <a href="https://belldhamster.github.io/mygo-ship-sort/">mygo-ship-sort</a>.</p>
+
+        <br><br>
+
+        <p>May 12th, 2024 creat this site.</p>
+    </div>
+</div>
+</body>
+
+</html>
