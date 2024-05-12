@@ -53,6 +53,10 @@ body {
   padding: 10%;
   grid-column: 2 / 3;
   cursor: pointer;
+  border-radius:5px;
+  background-color:#BE1400;
+  color:#FFF;
+  font-weight:bold;
 }
 
 .starting.start.button {
