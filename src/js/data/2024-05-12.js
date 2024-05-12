@@ -353,7 +353,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsuzuri x Hime",//35
-    img: "szhm.png",
+    img: "tzhm.png",
     opts: {
       year: ["102","103","104"],
       charater: ["tz","hm"]
