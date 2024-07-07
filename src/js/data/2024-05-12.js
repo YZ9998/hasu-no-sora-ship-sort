@@ -91,7 +91,7 @@ dataSet[dataSetVersion].characterData = [
     img: "khhm.png",
     opts: {
       year: ["103", "104"],
-      charater:["gk","hm"]
+      charater:["hk","hm"]
     },
   },
   {
